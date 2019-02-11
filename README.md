@@ -1,5 +1,7 @@
 
-pip install --user molecule
-pip install --user cookiecutter
+* pip install --user molecule
+* pip install --user cookiecutter
 
-molecule init template --url https://github.com/kevit/cookiecutter-molecule --role-name test
+* molecule init template --url https://github.com/kevit/cookiecutter-molecule --role-name test
+* cd test
+* molecule test
